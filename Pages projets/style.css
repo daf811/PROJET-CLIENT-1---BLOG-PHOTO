@@ -1,0 +1,27 @@
+body{
+	background-image: url("/Users/camille/Code/Projets Clients/Projet 1/wildozpotoz/Pages projets/Images/pattern.jpg");
+
+}
+
+header{
+	height: 100px;
+	text-align: center;
+}
+
+.container {
+	border: solid black 2px;
+	background-color: #edeaf7;
+}
+
+.Pad {
+	padding-bottom: 10px;
+}
+
+.eiffelitalic {
+	font-style: italic;
+}
+
+footer{
+	height: 100px;
+	text-align: center;
+}
