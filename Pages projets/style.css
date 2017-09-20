@@ -1,27 +1,42 @@
 body{
-	background-image: url("/Users/camille/Code/Projets Clients/Projet 1/wildozpotoz/Pages projets/Images/pattern.jpg");
-
-}
-
-header{
-	height: 100px;
-	text-align: center;
+	background-color: rgb(249, 249, 249);
+	font-family: 'Indie Flower', sans-serif;
 }
 
 .container {
-	border: solid black 2px;
-	background-color: #edeaf7;
+	background-color: rgb(255, 255, 255);
+	width: 65%;
 }
 
-.Pad {
-	padding-bottom: 10px;
+.main {
+	margin-top: 20px;
+	margin-bottom: 20px;
 }
 
-.eiffelitalic {
+h1 {
+	font-size: 4em;
+}
+
+h2 {
+	font-size: 2em;
+}
+
+p {
+	font-size: 1.5em;
+	font-family: 'Raleway', sans-serif;
+}
+
+img {
+	margin-bottom: 40px;
+}
+
+.intro {
+	margin-bottom: 30px;
+}
+
+.introtext {
 	font-style: italic;
 }
 
-footer{
-	height: 100px;
-	text-align: center;
+footer, header{
 }
