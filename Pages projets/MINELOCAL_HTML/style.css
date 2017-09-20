@@ -1,7 +1,12 @@
-body {
-	front-size: 16px;
+.header { 
+	background-image: url(img_header3.jpg);
+	height: 150px;
+	background-repeat: no-repeat;
+	background-position: center;
+	padding-top:-50px;
+	font-size: 16px;
 	margin-top: 0px; 
-}
+} 
 
 h1 {
 	text-align: center ;
@@ -11,15 +16,6 @@ h1 {
 	padding-right: 60px;
 	margin-top: 0px;
 }
-
-
-.header { 
-	background-image: url(img_header3.jpg);
-	height: 150px;
-	background-repeat: no-repeat;
-	background-position: center;
-	padding-top:-50px;
-} 
 
 nav ul {
 	padding-right: 80px;
@@ -31,13 +27,13 @@ nav ul {
 
 nav li {
 	display: inline-block;
-	padding: 0px		;
-	margin:  0px 		; 
-	width:   100px		;
-	height:   40px		;
-	border-right: 7px 	;
-	text-align: center  ;
-	line-height: 40px   ; 
+	padding: 0px;
+	margin:  0px; 
+	width:   100px;
+	height:   40px;
+	border-right: 7px;
+	text-align: center;
+	line-height: 40px ; 
 }
 
 nav li a {
