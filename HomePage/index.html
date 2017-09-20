@@ -11,33 +11,38 @@
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
 </head>
 
 <body>
 
-	<div id="page">
-		
+	<header>
+		<p>HEADER /////////////////</p>
+	</header>
+
+	<div id="page">	
+
 		<section class="container bloc-content"> 
 			
 			<article>
 				
 				<div class="row">
-					<h2 class="col-xs-10 col-xs-offset-2">Ma Bio</h2>
+					<img class="col-xs-2 col-xs-offset-5 profil" src="image/photo_profil.jpg">
 				</div>
-				
+
 				<div class="row">
+					<h2 class="col-xs-10 col-xs-offset-1">Biography</h2>
+				</div>
+
+				<div class="row">
+					<p class="col-xs-10 col-xs-offset-1 bio">Wildo Coda is a Swedish humanist photographer considered a master of candid photography, and an early user of 35 mm film. He pioneered the genre of street photography, and viewed photography as capturing a decisive moment. His work has influenced many photographers. <br><br> 
+
+					Coda was born in Malmö, Sweden, the oldest of five children. His father was a wealthy textile manufacturer, whose thread was a staple of Swedish sewing kits. His mother's family were cotton merchants and landowners from Stockholm, where Wildo spent part of his childhood.<br><br> 
+
+					His parents supported him financially so Wildo could pursue photography more freely than his contemporaries. In 1970, Wildo’s father bought him his first camera. They spent their time together taking and printing pictures at home.<br><br>
 					
-					<img class="col-xs-2" src="image/photo_profil.jpg">
-					
-					<p class="col-xs-10 col-xs-offse bio">Vestibulum eu purus neque. Aliquam sodales quam sed imperdiet ultricies. Quisque a ultrices sem. Duis lorem mi, tristique nec lectus id, pretium vulputate neque. Nam consectetur auctor eros in condimentum. Donec sit amet auctor orci, id rutrum sapien. Sed finibus sodales tellus, sit amet placerat urna tincidunt ac. Aenean lobortis sit amet ligula ut eleifend.Vestibulum eu purus neque. Aliquam sodales quam sed imperdiet ultricies. Quisque a ultrices sem. Duis lorem mi, tristique nec lectus id, pretium vulputate neque.<br><br> 
-
-					Nam consectetur auctor eros in condimentum. Donec sit amet auctor orci, id rutrum sapien. Sed finibus sodales tellus, sit amet placerat urna tincidunt ac. Aenean lobortis sit amet ligula ut eleifend.Vestibulum eu purus neque. Aliquam sodales quam sed imperdiet ultricies.<br><br> 
-
-					Quisque a ultrices sem. Duis lorem mi, tristique nec lectus id, pretium vulputate neque. Nam consectetur auctor eros in condimentum. Donec sit amet auctor orci, id rutrum sapien. Sed finibus sodales tellus, sit amet placerat urna tincidunt ac. Aenean lobortis sit amet ligula ut eleifend.Vestibulum eu purus neque. Aliquam sodales quam sed imperdiet ultricies.<br><br> 
-
-					Quisque a ultrices sem. Duis lorem mi, tristique nec lectus id, pretium vulputate neque. Nam consectetur auctor eros in condimentum. Donec sit amet auctor orci, id rutrum sapien. Sed finibus sodales tellus, sit amet placerat urna tincidunt ac. Aenean lobortis sit amet ligula ut eleifend.</p>
+					Wildo is best known for his captivating photographs of Parisian monuments, a city which he says has influenced his art profoundly.</p>
 
 				</div>
 
@@ -87,19 +92,7 @@
 
 			</article>
 			
-			<article>
-
-				<div class="container projet">
-					
-					<div class="row">
-
-						<p class="col-xs-offset-2 col-xs-10">Vestibulum eu purus neque. Aliquam sodales quam sed imperdiet ultricies. Quisque a ultrices sem. Duis lorem mi, tristique nec lectus id, pretium vulputate neque. Nam consectetur auctor eros in condimentum. Donec sit amet auctor orci, id rutrum sapien. Sed finibus sodales tellus, sit amet placerat urna tincidunt ac. Aenean lobortis sit amet ligula ut eleifend.Vestibulum eu purus neque. Aliquam sodales quam sed imperdiet ultricies. Quisque a ultrices sem. Duis lorem mi, tristique nec lectus id, pretium vulputate neque.</p>
-					
-					</div>
-
-				</div>
-
-			</article>
+			
 			
 		</section>
 
@@ -128,8 +121,33 @@
 			
 		</aside>
 
+
 	</div>
+
+	<footer>
+		<p>FOOTER ////////////////////</p>
+	</footer>	
 	
+
+	<script> 
+		$(document).ready(function(){
+			$(".profil").click(function(){
+				$(".profil").animate({
+					height: '240px',
+					width: '300px'
+
+				});
+			});
+
+			$(".profil").click(function(){
+				$(".profil").animate({
+					height: '120px',
+					width: '150px'
+				});
+			});
+		});
+	</script>
+
 </body>
 
 </html>
