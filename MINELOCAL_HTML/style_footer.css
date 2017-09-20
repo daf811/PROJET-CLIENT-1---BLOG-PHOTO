@@ -1,8 +1,47 @@
 
-body {
-	background-image: 
-	border-radius: 10px;
-    border-width: ;
-    border-style: none;
-    border-color: transparent;
+
+footer{ 
+	background-repeat: no-repeat;
+	background-position: center;
+	display: flex;
+	background-color: #BCBFBE; 
+}
+
+p {
+	color: white;
+}
+
+nav li {
+	display: inline-block;
+	text-align: center   ; 
+	padding: 0px		;
+	margin:  0px 		; 
+	width:   100px		;
+	height:   40px		;
+	border-right: 7px 	;
+	text-align: center  ;
+}
+
+
+nav li a {
+	text-decoration: none;
+	color: #FFFFFF ; 
+}
+
+nav li :hover {
+	color: red;   
+}
+
+.wildo{
+	width: 20%;
+	padding-top: 20px;
+}
+
+.navig{
+    width: 50%;
+    padding-top: 20px;
+}
+
+.form {
+	width: 30%;
 }

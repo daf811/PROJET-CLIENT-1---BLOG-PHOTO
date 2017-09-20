@@ -1,32 +1,32 @@
 body {
-	front-size: 16px; 
+	front-size: 16px;
+	margin-top: 0px; 
 }
-
-
 
 h1 {
 	text-align: center ;
 	position: center;
-	front-family: ;
-	front: 
+	font-family:'Indie Flower',cursive; 
+	font-size: 3em;
+	padding-right: 60px;
+	margin-top: 0px;
 }
 
-menu {
-	display: flex;
-}
 
 .header { 
 	background-image: url(img_header3.jpg);
 	height: 150px;
 	background-repeat: no-repeat;
 	background-position: center;
+	padding-top:-50px;
 } 
 
 nav ul {
-	padding: 0px;
+	padding-right: 80px;
 	margin:  0px;
     list-style-type: none;
     text-align: center;
+    margin-top: 30px;
 }
 
 nav li {
