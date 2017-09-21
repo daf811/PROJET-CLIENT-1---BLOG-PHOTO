@@ -7,6 +7,7 @@
 		<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 		<link rel="stylesheet" type="text/css" href="style.css">
 		<link href="https://fonts.googleapis.com/css?family=Indie+Flower|Raleway" rel="stylesheet">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	</head>
 
 	<body>
@@ -21,9 +22,9 @@
       			<nav class="menu col-xs-12">         
         		 	<ul>
 			          <li><a href="../index.html" class="menu-item-active">Welcome</a></li>
-			          <li><a href="#" class="menu-item-active">Project1</a></li>
-			          <li><a href="index2.html" class="menu-item-active">Project2</a></li>
-			          <li><a href="index3.html" class="menu-item-active">Project3</a></li>
+			          <li><a href="#" class="menu-item-active">Louvre</a></li>
+			          <li><a href="index2.html" class="menu-item-active">Eiffel Tower</a></li>
+			          <li><a href="index3.html" class="menu-item-active">Moulin Rouge</a></li>
    					</ul>
     			 </nav>
             </div> 
@@ -38,7 +39,7 @@
 			</div>
 
 			<div class="row">
-				<img class="col-xs-6 col-xs-offset-3" src="Images/louvre-102840_1280.jpg" alt="Louvre_Night">
+				<img class="col-xs-3 col-xs-offset-3 photo" src="Images/louvre-102840_1280.jpg" alt="Louvre_Night">
 				<div class="col-xs-3">
 					<h3>At night...</h3>
 					<p>It was a cold evening... I decided to walk instead of taking the subway... After a while, I finally arrived to the Louvre and took this photo.</p>
@@ -46,7 +47,7 @@
 			</div>
 
 			<div class="row">
-				<img class="col-xs-6 col-xs-offset-3" src="Images/louvre-2386217_1920.jpg" alt="Louvre_Far_Away">
+				<img class="col-xs-3 col-xs-offset-3 photo" src="Images/louvre-2386217_1920.jpg" alt="Louvre_Far_Away">
 				<div class="col-xs-3">
 					<h3>Far away...</h3>
 					<p>There were too many tourists that day, so I took a photo standing far away.</p>
@@ -54,7 +55,7 @@
 			</div>
 
 			<div class="row">
-				<img class="col-xs-6 col-xs-offset-3" src="Images/woman-1283009_1920.jpg" alt="Louvre_Indoors">
+				<img class="col-xs-3 col-xs-offset-3 photo" src="Images/woman-1283009_1920.jpg" alt="Louvre_Indoors">
 				<div class="col-xs-3">
 					<h3>Inside...</h3>
 					<p>Beautiful lady, beautiful paintings.</p>
@@ -62,7 +63,7 @@
 			</div>
 
 			<div class="row">
-				<img class="col-xs-6 col-xs-offset-3" src="Images/louvre-2189967_1280.jpg" alt="Louvre_Below">
+				<img class="col-xs-3 col-xs-offset-3 photo" src="Images/louvre-2189967_1280.jpg" alt="Louvre_Below">
 				<div class="col-xs-3">
 					<h3>Below...</h3>
 					<p>Best photo I've ever made.</p>
@@ -81,10 +82,10 @@
           		<div class="row">
            			<nav class="col-xs-12">         
 		                <ul>
-		                  <li><a href="#" class="menu-item-active">Welcome</a></li>
-		                  <li><a href="#" class="menu-item-active">Project1</a></li>
-		                  <li><a href="#" class="menu-item-active">Project2</a></li>
-		                  <li><a href="#" class="menu-item-active">Project3</a></li>
+		                  	<li><a href="../index.html" class="menu-item-active">Welcome</a></li>
+			          		<li><a href="#" class="menu-item-active">Louvre</a></li>
+			          		<li><a href="index2.html" class="menu-item-active">Eiffel Tower</a></li>
+			          		<li><a href="index3.html" class="menu-item-active">Moulin Rouge</a></li>
 		                </ul>
             		</nav>
           		</div>
@@ -105,5 +106,25 @@
           		</div>
         	</div>
 		</footer>
+
+<script> 
+		$(document).ready(function(){
+			$(".photo").click(function(){
+				$(this).animate({
+					height: '40%',
+					width: '40%',
+					right: '10%'
+
+				});
+			});
+
+			
+		});
+	</script>
+
+
+
+
+
 	</body>
 </html>

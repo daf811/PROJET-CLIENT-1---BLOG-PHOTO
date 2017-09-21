@@ -7,6 +7,7 @@
 		<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 		<link rel="stylesheet" type="text/css" href="style.css">
 		<link href="https://fonts.googleapis.com/css?family=Indie+Flower|Raleway" rel="stylesheet">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	</head>
 
 	<body>
@@ -21,9 +22,9 @@
       			<nav class="menu col-xs-12">         
         		 	<ul>
 			          <li><a href="../index.html" class="menu-item-active">Welcome</a></li>
-			          <li><a href="index.html" class="menu-item-active">Project1</a></li>
-			          <li><a href="#" class="menu-item-active">Project2</a></li>
-			          <li><a href="index3.html" class="menu-item-active">Project3</a></li>
+			          <li><a href="index.html" class="menu-item-active">Louvre</a></li>
+			          <li><a href="#" class="menu-item-active">Eiffel Tower</a></li>
+			          <li><a href="index3.html" class="menu-item-active">Moulin Rouge</a></li>
    					</ul>
     			 </nav>
             </div>
@@ -38,7 +39,7 @@
 			</div>
 
 			<div class="row">
-				<img class="col-xs-6 col-xs-offset-3" src="Images/eiffel-tower-2432580_1920.jpg" alt="Eiffel_Sky">
+				<img class="col-xs-3 col-xs-offset-3 photo" src="Images/eiffel-tower-2432580_1920.jpg" alt="Eiffel_Sky">
 				<div class="col-xs-3">
 					<h3>Eiffel-Sky...</h3>
 					<p>I like the unusual composition of this shot.</p>
@@ -46,7 +47,7 @@
 			</div>
 
 			<div class="row">
-				<img class="col-xs-6 col-xs-offset-3" src="Images/france-1930768_1920.jpg" alt="Eiffel_Toys">
+				<img class="col-xs-3 col-xs-offset-3 photo" src="Images/france-1930768_1920.jpg" alt="Eiffel_Toys">
 				<div class="col-xs-3">
 					<h3>Eiffel-Toys...</h3>
 					<p>Some guy tried really hard to sell me these Eiffel Tower Souvenirs. I said no, took a photo, and ran away.</p>
@@ -54,7 +55,7 @@
 			</div>
 
 			<div class="row">
-				<img class="col-xs-6 col-xs-offset-3" src="Images/eiffel-tower-2304947_1920.jpg" alt="Eiffel_Trippy">
+				<img class="col-xs-3 col-xs-offset-3 photo" src="Images/eiffel-tower-2304947_1920.jpg" alt="Eiffel_Trippy">
 				<div class="col-xs-3">
 					<h3>Eiffel-Trippy...</h3>
 					<p>Strange shot, kind of psychedelic.</p>
@@ -62,7 +63,7 @@
 			</div>
 
 			<div class="row">
-				<img class="col-xs-6 col-xs-offset-3" src="Images/eiffel-1891667_1920.jpg" alt="Eiffel_Forest">
+				<img class="col-xs-3 col-xs-offset-3 photo" src="Images/eiffel-1891667_1920.jpg" alt="Eiffel_Forest">
 				<div class="col-xs-3">
 					<h3>Eiffel-Forest...</h3>
 					<p>//Dreamy//</p>
@@ -81,10 +82,10 @@
           		<div class="row">
            			<nav class="col-xs-12">         
 		                <ul>
-		                  <li><a href="#" class="menu-item-active">Welcome</a></li>
-		                  <li><a href="#" class="menu-item-active">Project1</a></li>
-		                  <li><a href="#" class="menu-item-active">Project2</a></li>
-		                  <li><a href="#" class="menu-item-active">Project3</a></li>
+		                  	<li><a href="../index.html" class="menu-item-active">Welcome</a></li>
+			          		<li><a href="index.html" class="menu-item-active">Louvre</a></li>
+			          		<li><a href="#" class="menu-item-active">Eiffel Tower</a></li>
+			          		<li><a href="index3.html" class="menu-item-active">Moulin Rouge</a></li>
 		                </ul>
             		</nav>
           		</div>
@@ -105,5 +106,21 @@
           		</div>
         	</div>
 		</footer>
+		
+		<script> 
+		$(document).ready(function(){
+			$(".photo").click(function(){
+				$(this).animate({
+					height: '40%',
+					width: '40%',
+					right: '10%'
+
+				});
+			});
+
+			
+		});
+		</script>
+
 	</body>
 </html>
